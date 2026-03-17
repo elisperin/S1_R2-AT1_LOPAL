@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="media"/>
+        <attribute name="authors" value="I1D35"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-17 04:08:42 "/>
+        <attribute name="created" value="STFEMzU7RUNGUDUwN0QxMjYzNTk5OzIwMjYtMDMtMTc7IjAzOjMwOjE2ICI7MjM2NA=="/>
+        <attribute name="edited" value="STFEMzU7RUNGUDUwN0QxMjYzNTk5OzIwMjYtMDMtMTc7IjA0OjA4OjQyICI7MTsyNDc3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1" type="Real" array="False" size=""/>
+            <declare name="nota2" type="Real" array="False" size=""/>
+            <declare name="M&#233;dia" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual foi sua primeira nota?&quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;Qual foi sua segunda nota?&quot;" newline="True"/>
+            <input variable="nota2"/>
+            <assign variable="M&#233;dia" expression="(nota1+nota2)/2"/>
+            <output expression="&quot;Sua m&#233;dia &#233; &quot; &amp;M&#233;dia" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

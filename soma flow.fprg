@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="soma flow"/>
+        <attribute name="authors" value="I1D35"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-17 02:26:45 "/>
+        <attribute name="created" value="STFEMzU7RUNGUDUwN0QxMjYzNTk5OzIwMjYtMDMtMTc7IjAyOjA1OjAxICI7MjM1OQ=="/>
+        <attribute name="edited" value="STFEMzU7RUNGUDUwN0QxMjYzNTk5OzIwMjYtMDMtMTc7IjAyOjI2OjQ1ICI7MTsyNDc4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A" type="Integer" array="False" size=""/>
+            <assign variable="A" expression="10"/>
+            <declare name="B" type="Integer" array="False" size=""/>
+            <assign variable="B" expression="5"/>
+            <declare name="Soma" type="Integer" array="False" size=""/>
+            <assign variable="Soma" expression="A + B"/>
+            <output expression="&quot;O Resultado &#233;:&quot; &amp; Soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
